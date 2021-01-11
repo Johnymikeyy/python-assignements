@@ -2,10 +2,14 @@
 #return a new string where the character at index n has been removed.
 
 my_word = 'clarusway'
-my_word = list(my_word)
-print(my_word)
-my_word.pop(3)
-print(my_word)
+print(my_word[2])
+my_word1 = list(my_word)
+print(my_word1)
+my_word1.pop(3)
+print(my_word1)
 
 
+
+new_word = my_word.replace(my_word[3],"")
+print(new_word)
 
