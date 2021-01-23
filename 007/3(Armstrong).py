@@ -13,10 +13,10 @@ while new_num > 0:
  
 if num == total:
     print(num,"is an Armstrong number")
-
+    
 else:
     print(num,"is not an Armstrong number")
-    
+
 
    
    
