@@ -5,3 +5,4 @@ while n2 <= 55:
     resultat.append(n1) 
     
 print(resultat)
+
