@@ -10,4 +10,15 @@ def divisible(x, y):
         return "divisible"
     
         
-print(divisible(2, 0))
+print(divisible(2, 1))
+
+###
+def divisible(x, y):
+    if y == 0:
+        return "error"
+    elif y % x != 0:
+        return "not divisible"
+    else:
+        return "divisible"
+    
+print(divisible(2, 1))
