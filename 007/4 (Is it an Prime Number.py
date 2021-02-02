@@ -6,4 +6,18 @@ for i in range(2, num):
       break
     
 else:
-    print(f"{num} is a prime number")
+  print(f"{num} is a prime number")
+  
+  
+###
+
+number = int(input("Please enter the number you want to learn whether is Prime Number or not:\n"))
+primekey = 0
+
+for i in range(2, number):
+    if number % i == 0:
+        print("{} is not a Prime Number.".format(number))
+        primekey += 1
+        break
+
+print((not primekey) * f"{number} is a Prime Number.")
