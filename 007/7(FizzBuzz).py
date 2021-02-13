@@ -3,7 +3,7 @@
 ##if a number is multiple of 5, print "Buzz" instead of this number,
 ##for numbers that are multiples of both 3 and 5, print "FizzBuzz",
 ##print the rest of the numbers unchanged.
-
+numbers = [25, 36, 28, 96]
 
 for i in numbers:
     if i % 5 == 0 and i % 3 == 0:
