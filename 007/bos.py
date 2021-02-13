@@ -14,3 +14,12 @@ if year % 4 == 0:
     print(f"{year} is a leap year")
 else:
   print(f"{year} is a not leap year")
+
+
+
+sentence = input("Enter a sentence: ")
+letters_count = {}
+
+for i in sentence:
+     if i in letters_count:
+        print(i)
