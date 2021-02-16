@@ -11,4 +11,6 @@ print(set(k for i in x for j in i for k in j))
 
 print(set(iter for items in x for count in items for iter in count))
 
+#####
 
+print([1, 2, 3]+[1, 1, 1])
